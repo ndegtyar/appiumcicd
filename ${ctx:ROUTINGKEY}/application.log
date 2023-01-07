@@ -1,0 +1,44 @@
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:11:41.422 BaseTest:222 - login withstandard_user
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:11:43.117 BaseTest:222 - login withinvalidusername
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:11:48.611 BaseTest:237 - product page title is - PRODUCTS
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:49:01.617 BaseTest:143 - load config.properties
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:49:01.639 BaseTest:148 - load strings/strings.xml
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:52:38.592 BaseTest:145 - load config.properties
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:52:38.615 BaseTest:150 - load strings/strings.xml
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:14.284 BaseTest:145 - load config.properties
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:14.307 BaseTest:150 - load strings/strings.xml
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:32.800 LoginTests:52 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:34.234 BaseTest:234 - login withstandard_user
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:35.052 LoginTests:52 - 
+****** starting test:invalidUserName******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:35.734 BaseTest:234 - login withinvalidusername
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:36.549 LoginTests:52 - 
+****** starting test:succesfulLogin******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:41.404 BaseTest:249 - product page title is - PRODUCTS
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:36.566 BaseTest:145 - load config.properties
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:36.590 BaseTest:150 - load strings/strings.xml
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:47.435 LoginTests:52 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:48.736 BaseTest:234 - login withstandard_user
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:49.529 LoginTests:52 - 
+****** starting test:invalidUserName******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:50.302 BaseTest:234 - login withinvalidusername
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:51.141 LoginTests:52 - 
+****** starting test:succesfulLogin******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:56.291 BaseTest:249 - product page title is - PRODUCTS
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:08:03.910 LoginTests:52 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:08:10.259 LoginTests:52 - 
+****** starting test:invalidUserName******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:08:14.856 LoginTests:52 - 
+****** starting test:succesfulLogin******
+
