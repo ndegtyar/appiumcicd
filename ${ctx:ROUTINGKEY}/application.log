@@ -92,3 +92,21 @@
 [${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:17:27.549 LoginTests:49 - 
 ****** starting test:succesfulLogin******
 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:19:56.673 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:31:35.543 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 10:14:45.889 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 10:17:40.891 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 10:34:43.984 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 10:37:46.873 LoginTests:49 - 
+****** starting test:invalidPassword******
+
