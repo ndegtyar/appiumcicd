@@ -1,44 +1,94 @@
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:11:41.422 BaseTest:222 - login withstandard_user
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:11:43.117 BaseTest:222 - login withinvalidusername
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:11:48.611 BaseTest:237 - product page title is - PRODUCTS
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:49:01.617 BaseTest:143 - load config.properties
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:49:01.639 BaseTest:148 - load strings/strings.xml
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:52:38.592 BaseTest:145 - load config.properties
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:52:38.615 BaseTest:150 - load strings/strings.xml
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:14.284 BaseTest:145 - load config.properties
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:14.307 BaseTest:150 - load strings/strings.xml
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:32.800 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:21:18.912 LoginTests:52 - 
 ****** starting test:invalidPassword******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:34.234 BaseTest:234 - login withstandard_user
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:35.052 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:21:24.128 LoginTests:52 - 
 ****** starting test:invalidUserName******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:35.734 BaseTest:234 - login withinvalidusername
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:36.549 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:21:28.711 LoginTests:52 - 
 ****** starting test:succesfulLogin******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 09:55:41.404 BaseTest:249 - product page title is - PRODUCTS
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:36.566 BaseTest:145 - load config.properties
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:36.590 BaseTest:150 - load strings/strings.xml
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:47.435 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:28:30.654 LoginTests:52 - 
 ****** starting test:invalidPassword******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:48.736 BaseTest:234 - login withstandard_user
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:49.529 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:42:47.646 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:42:53.435 LoginTests:49 - 
 ****** starting test:invalidUserName******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:50.302 BaseTest:234 - login withinvalidusername
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:51.141 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:42:58.169 LoginTests:49 - 
 ****** starting test:succesfulLogin******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:02:56.291 BaseTest:249 - product page title is - PRODUCTS
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:08:03.910 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:48:25.986 LoginTests:49 - 
 ****** starting test:invalidPassword******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:08:10.259 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:54:02.649 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:56:16.283 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:56:21.287 LoginTests:49 - 
 ****** starting test:invalidUserName******
 
-[${ctx:ROUTINGKEY} INFO ] 2023-01-02 10:08:14.856 LoginTests:52 - 
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:56:25.997 LoginTests:49 - 
+****** starting test:succesfulLogin******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:59:07.436 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:59:13.779 LoginTests:49 - 
+****** starting test:invalidUserName******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 08:59:17.951 LoginTests:49 - 
+****** starting test:succesfulLogin******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:09:00.600 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} ERROR] 2023-01-08 09:09:04.901 TestListeners:33 - java.lang.AssertionError: expected [Username and password do not match any user in this serviceuyg.] but found [Username and password do not match any user in this service.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.qa.tests.LoginTests.invalidPassword(LoginTests.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:09:06.282 LoginTests:49 - 
+****** starting test:invalidUserName******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:09:10.042 LoginTests:49 - 
+****** starting test:succesfulLogin******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:17:17.239 LoginTests:49 - 
+****** starting test:invalidPassword******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:17:23.333 LoginTests:49 - 
+****** starting test:invalidUserName******
+
+[${ctx:ROUTINGKEY} INFO ] 2023-01-08 09:17:27.549 LoginTests:49 - 
 ****** starting test:succesfulLogin******
 

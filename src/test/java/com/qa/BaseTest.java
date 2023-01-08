@@ -107,7 +107,7 @@ public class BaseTest {
 
     @BeforeSuite
     public void beforeSuit() {
-        server = getAppiumServerDegault();
+        server = getAppiumServerDefault();
         server.start();
         System.out.println("Appim server is start");
     }
@@ -118,7 +118,7 @@ public class BaseTest {
         System.out.println("Appim server is stop");
     }
 
-    public AppiumDriverLocalService getAppiumServerDegault() {
+    public AppiumDriverLocalService getAppiumServerDefault() {
         return AppiumDriverLocalService.buildDefaultService();
     }
 

@@ -22,13 +22,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestListeners implements ITestListener {
+    TestUtils utils = new TestUtils();
+
 
     public void onTestFailure(ITestResult result) {
         if(result.getThrowable() != null) {
             StringWriter sw = new StringWriter();
             PrintWriter pw = new PrintWriter(sw);
             result.getThrowable().printStackTrace(pw);
-            System.out.println(sw.toString());
+            utils.log().error(sw.toString());
         }
         BaseTest base = new BaseTest();
         File file = base.getDriver().getScreenshotAs(OutputType.FILE);
@@ -51,20 +53,16 @@ public class TestListeners implements ITestListener {
         String completeImagePath = System.getProperty("user.dir") + File.separator + imagePath;
 
         try {
-            FileUtils.copyFile(file, new File("SampleSCR.png"));
+            FileUtils.copyFile(file, new File(imagePath));
             Reporter.log("This is the sample screenshot");
             Reporter.log("<a href='"+ completeImagePath + "'> <img src='"+ completeImagePath + "' height='400' width='400'/> </a>");
         } catch (IOException e) {
             e.printStackTrace();
         }
-        try {
-            ExtentReport.getTest().fail("Test failed",
-                    MediaEntityBuilder.createScreenCaptureFromPath(completeImagePath).build());
-            ExtentReport.getTest().fail("Test Failed",
-                    MediaEntityBuilder.createScreenCaptureFromBase64String(new String(encoded, StandardCharsets.US_ASCII)).build());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        ExtentReport.getTest().fail("Test failed",
+                MediaEntityBuilder.createScreenCaptureFromPath(completeImagePath).build());
+        ExtentReport.getTest().fail("Test Failed",
+                MediaEntityBuilder.createScreenCaptureFromBase64String(new String(encoded, StandardCharsets.US_ASCII)).build());
         ExtentReport.getTest().fail(result.getThrowable());
     }
 

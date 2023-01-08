@@ -15,9 +15,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Method;
 
-import static com.google.auto.common.AnnotationValues.getStrings;
-import static org.testng.Assert.assertEquals;
-
 public class LoginTests extends BaseTest {
     LoginPage loginPage;
     ProductPage productPage;

@@ -1,7 +1,6 @@
 package com.qa.ui;
 
 import com.qa.BaseTest;
-import com.qa.DriverManager;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.InteractsWithApps;
